@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  line-height: 1, 5;
+  padding: 40px;
+}
+
+.cats {
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.photo {
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  border-color: yellow;
+}
+
+.photo:hover {
+  transform: scale(1.2);
+  border-color: green;
+}
+
+.buttons {
+  text-align: center;
+}
+
+a {
+  margin-left: 20px;
+  background-color: #ddd;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
